@@ -1,2 +1,1 @@
-# ProjectJavaFacul
- Projetos da faculdade
+# Project-Java-Facul
