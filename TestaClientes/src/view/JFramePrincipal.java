@@ -41,7 +41,7 @@ public class JFramePrincipal extends javax.swing.JFrame {
 
     private void btnCadClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadClienteActionPerformed
         // TODO add your handling code here:
-        new .setVisible(true);
+        new JPaneClientes().setVisible(true);
         dispose();
     }//GEN-LAST:event_btnCadClienteActionPerformed
 
