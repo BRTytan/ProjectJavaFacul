@@ -11,27 +11,9 @@ public class TestaAutomovel {
         Automovel carro2 = new Automovel();
         Automovel carro3 = new Automovel();
         
-        carro1.Automovel();
-        carro2.Automovel();
-        carro3.Automovel();
-        
-        ligado = carro1.ligado;
-        ligado1 = carro2.ligado;
-        ligado2 = carro3.ligado;
-        
-        if(ligado == true){
-            System.out.println("Carro1 Ligado");
-        }else{
-            System.out.println("Carro1 Desligado");
-        }if(ligado1 == true){
-            System.out.println("Carro2 Ligado");
-        }else{
-            System.out.println("Carro2 Desligado");
-        }if(ligado2 == true){
-            System.out.println("Carro3 Ligado");
-        }else{
-            System.out.println("Carro3 Desligado");
-        }
+        carro1.Automovel("FIAT","FFJ4045", "PRETO", "ALCOOL", "123456", "DHJIL", true);
+        carro2.Automovel("GOL","FFJ4045", "AZUL", "GASOLINA", "123456", "DHJIL", false);
+        carro3.Automovel("AUDI","FFJ4045", "PRETO", "ALCOOL", "123456", "DHJIL", true);
     }
     
 }
