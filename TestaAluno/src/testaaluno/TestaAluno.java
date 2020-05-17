@@ -1,21 +1,24 @@
-package testaaluno;
+/*1 (0,5 ponto) Escreva uma classe em Java para as seguintes especificações:
+- Nome da classe: Aluno
+- Atributos
+- RA : String
+- Nome : String
+- Curso : String
+- Escreva um método construtor em Java para a classe Aluno que receba como parâmetros:
+- RA, Nome e Curso
+- Os atributos devem ter receber os valores dos parâmetros
+Escreva uma classe em Java chamada TesteAluno, que contenha um método "main", e instancie 3 objetos diferentes do "tipo" Aluno.
+*/
 
-import javax.swing.JOptionPane;
+package testaaluno;
 
 public class TestaAluno {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        Aluno aluno1 = new Aluno();
-        Aluno aluno2 = new Aluno();
-        Aluno aluno3 = new Aluno();
-        
-        if(!(aluno1.nome == null ? null == aluno2.nome : aluno1.nome.equals(aluno2.nome))){
-            JOptionPane.showMessageDialog(null, aluno1.nome);
-            JOptionPane.showMessageDialog(null, aluno2.nome);
-        }else{
-            JOptionPane.showMessageDialog(null, aluno3.nome);
-        }
+        Aluno aluno1 = new Aluno("D9503B0", "FELIPPE", "CIÊNCIA DA COMPUTAÇÃO");
+        Aluno aluno2 = new Aluno("D9503B3", "ALINE", "CIÊNCIA DA COMPUTAÇÃO");
+        Aluno aluno3 = new Aluno("D9503B2", "JOÃO", "CIÊNCIA DA COMPUTAÇÃO");
     }
     
 }

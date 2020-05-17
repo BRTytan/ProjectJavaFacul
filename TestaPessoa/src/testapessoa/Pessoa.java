@@ -9,19 +9,17 @@ public class Pessoa {
     char sexo; 
     int idade;
     
-    public Pessoa(){
-        rg = JOptionPane.showInputDialog("RG: ", rg);
-        cpf = JOptionPane.showInputDialog("CPF: ", cpf);
-        nome = JOptionPane.showInputDialog("Nome: ", nome);
-        endereco = JOptionPane.showInputDialog("Endereço: ", endereco);
-        celular = JOptionPane.showInputDialog("Celular: ", celular);
-        email = JOptionPane.showInputDialog("Email: ", email);
-        altura = Double.parseDouble(JOptionPane.showInputDialog("Altura: ", altura));
-        peso = Double.parseDouble(JOptionPane.showInputDialog("Peso: ", peso));
-        sexo = JOptionPane.showInputDialog("Sexo [M] ou [F]: ", sexo).toUpperCase().charAt(0);
-        idade = Integer.parseInt(JOptionPane.showInputDialog("Idade: ", idade));
+    public Pessoa(String rg, String cpf, String nome, String endereco, String celular, String email, double altura, double peso, char sexo, int idade){
+        System.out.print(" RG: " + rg);
+        System.out.print(" CPF: " + cpf);
+        System.out.println(" Nome: " + nome);
+        System.out.print(" Endereço: " + endereco);
+        System.out.print(" Celular: " + celular);
+        System.out.print(" Email: " + email);
+        System.out.print(" Altura: " + altura);
+        System.out.print(" Peso: " + peso);
+        System.out.print(" Sexo: " + sexo);
+        System.out.println(" Idade: " + idade);
+        System.out.println("-------------------------");
     }
-    public String toString(){
-            return "Sexo: "+ this.sexo;
-	}
 }
