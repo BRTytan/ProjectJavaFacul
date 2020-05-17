@@ -7,12 +7,15 @@ public class TestaOrdem {
         ord1.Ordem(10, 30, 20);
         ord1.mostrarMaior();
         ord1.mostrarMenor();
+        ord1.mostrarCrescente();
         ord1.Ordem(30, 10, 20);
         ord1.mostrarMaior();
         ord1.mostrarMenor();
+        ord1.mostrarCrescente();
         ord1.Ordem(10, 10, 20);
         ord1.mostrarMaior();
         ord1.mostrarMenor();
+        ord1.mostrarCrescente();
     }
     
 }

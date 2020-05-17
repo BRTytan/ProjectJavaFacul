@@ -21,4 +21,3 @@ public class Pontuacao {
         System.out.println("Sua pontuação atual é: " + pontosGanhos);
     }
 }
-

@@ -1,5 +1,7 @@
 package testaordem;
 
+import static java.util.Arrays.sort;
+import static java.util.Arrays.sort;
 import javax.swing.JOptionPane;
 
 public class Ordem {
@@ -37,8 +39,11 @@ public class Ordem {
         }
     }
     public void mostrarCrescente(){
+        int[] list1 = {x,y,z};
+        System.out.println(list1);
         if(x < y && x < z){
             System.out.println("X"+ "(" + x + ")" + " < " + y + " e " + z);
+            sort(list1);
         }
         else if(y < x && y < z){
             System.out.println("Y"+ "(" + y + ")" + " < " + x + " e " + z);
